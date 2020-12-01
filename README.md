@@ -27,7 +27,8 @@ La veriedad resulta nesesaria para combatir el ruido natural de una toma de vide
 ![](view2.png)
 ![](view3.png)
 ![](view1.png)
-Notesé la descripción de ciertos datos como resultado del clasificador, gracias a la interación con [Poke API](https://pokeapi.co/).
+
+Notesé la descripción de los datos de Pikachu como resultado del clasificador, gracias a la interación con [Poke API](https://pokeapi.co/).
 
 ##### Contribuidores
 * [GustavoDLRA](https://github.com/GustavoDLRA)

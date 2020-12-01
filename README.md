@@ -5,7 +5,8 @@
 ## Búsqueda y recolección de datos
 Para el desarrollo de la aplicación se seleccionaron 15 especies de Pokemon: Pikachu, Charmander, Lapras, Bulbasaur, Evee, Psyduck, Squirtle, Ditto, Growlithe, Blastoise, Snorlax, Mewtwo, Magneton, Gastly y Omanyte.
 
-De cada una de estas 15 especies se recolectaron 100 imágenes las cuales se utilizaron en la fase del entrenamiento de la red neuronal. Para la busqueda y recolección de imágenes se utilizaron diversas técnicas como la búsqueda directa de imágenes en una base de datos como [Kaggle](https://www.kaggle.com/lantian773030/pokemonclassification), realizando un web scraper, o descargando las imágenes del buscador de manera manual. La búsqueda manual se realizó ya que la aplicación al utiliza la cámara del celular los pokemones que detectará serán modelos reales (como peluches, muñecos o juguetes) y no modelos animados o dibuos, por lo que se consideró adecuado agregar ese tipo de imagenes de modelos reales para el entrenamiento.
+De cada una de estas 15 especies se recolectaron 100 imágenes las cuales se utilizaron en la fase del entrenamiento de la red neuronal. Para la busqueda y recolección de imágenes se utilizaron diversas técnicas como la búsqueda directa de imágenes en una base de datos como [Kaggle](https://www.kaggle.com/lantian773030/pokemonclassification), realizando un web scraper, o descargando las imágenes del buscador de manera manual. 
+La búsqueda manual se realizó ya que la aplicación al utiliza la cámara del celular los pokemones que detectará serán modelos reales (como peluches, muñecos o juguetes) y no modelos animados o dibuos, por lo que se consideró adecuado agregar ese tipo de imagenes de modelos reales para el entrenamiento.
 
 ## Etiquetado de los datos
 Para etiquetar los datos se instaló [PyQt5](https://www.riverbankcomputing.com/software/pyqt/download) y [lxml](https://lxml.de/installation.html). Posteriormente se utilizó la herramienta [labelImg.py](https://github.com/tzutalin/labelImg#labelimg) y se etiquetaron las imágenes de manera manual con formato YOLO.
@@ -15,18 +16,18 @@ Para etiquetar los datos se instaló [PyQt5](https://www.riverbankcomputing.com/
 * Android Studio-Suite / Android Studio cli Tools
 
 ##### Modelo 
-El modelo utilizado, basado en YOLO en tensorflow-lite fue entrenado para clasificar las 15 clases anteriores, utilizando un conjunto de imagenes tomadas de varias fuentes:
+El modelo utilizado, basado en YOLO con el framework darknet fue entrenado para clasificar las 15 clases anteriores, utilizando un conjunto de imagenes tomadas de varias fuentes:
 * La animación
 * PokemonGo
 * Fotos de peluches
 
 La veriedad resulta nesesaria para combatir el ruido natural de una toma de video. (Fondo dinámico)
 
-
 ##### Vistas (Ejemplo de clasificación de un peluche de Pikachu)
 ![](view2.png)
 ![](view3.png)
 ![](view1.png)
+Notesé la descripción de ciertos datos como resultado del clasificador, gracias a la interación con [Poke API](https://pokeapi.co/).
 
 ##### Contribuidores
 * [GustavoDLRA](https://github.com/GustavoDLRA)

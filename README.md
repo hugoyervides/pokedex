@@ -23,7 +23,7 @@ El modelo utilizado, basado en YOLO en tensorflow-lite fue entrenado para clasif
 La veriedad resulta nesesaria para combatir el ruido natural de una toma de video. (Fondo dinámico)
 
 
-##### Vistas
+##### Vistas (Ejemplo de clasificación de un peluche de Pikachu)
 ![](view2.png)
 ![](view3.png)
 ![](view1.png)

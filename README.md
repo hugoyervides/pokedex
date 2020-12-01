@@ -4,6 +4,7 @@
 
 ## Búsqueda y recolección de datos
 Para el desarrollo de la aplicación se seleccionaron 15 especies de Pokemon: Pikachu, Charmander, Lapras, Bulbasaur, Evee, Psyduck, Squirtle, Ditto, Growlithe, Blastoise, Snorlax, Mewtwo, Magneton, Gastly y Omanyte.
+
 De cada una de estas 15 especies se recolectaron 100 imágenes las cuales se utilizaron en la fase del entrenamiento de la red neuronal. Para la busqueda y recolección de imágenes se utilizaron diversas técnicas como la búsqueda directa de imágenes en una base de datos como [Kaggle](https://www.kaggle.com/lantian773030/pokemonclassification), realizando un web scraper, o descargando las imágenes del buscador de manera manual. La búsqueda manual se realizó ya que la aplicación al utiliza la cámara del celular los pokemones que detectará serán modelos reales (como peluches, muñecos o juguetes) y no modelos animados o dibuos, por lo que se consideró adecuado agregar ese tipo de imagenes de modelos reales para el entrenamiento.
 
 ## Etiquetado de los datos

@@ -15,7 +15,7 @@ Para etiquetar los datos se instaló [PyQt5](https://www.riverbankcomputing.com/
 * Android Studio-Suite / Android Studio cli Tools
 
 ##### Modelo 
-El modelo utilizado, fue entrenado para clasificar las 15 clases anteriores, utilizando un conjunto de imagenes tomadas de varias fuentes:
+El modelo utilizado, basado en YOLO en tensorflow-lite fue entrenado para clasificar las 15 clases anteriores, utilizando un conjunto de imagenes tomadas de varias fuentes:
 * La animación
 * PokemonGo
 * Fotos de peluches

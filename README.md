@@ -24,3 +24,9 @@ Para etiquetar los datos se instaló [PyQt5](https://www.riverbankcomputing.com/
 * [Felipe Villaseñor](https://github.com/Felipev201)
 
 ##### Referencias
+- [Google Images Download](https://github.com/Joeclinton1/google-images-download)
+- [Bing Image Scraper](https://gist.github.com/stephenhouser/c5e2b921c3770ed47eb3b75efbc94799)
+- [Pokemon Dataset](https://www.kaggle.com/thedagger/pokemon-generation-one)
+- [AIGuysCode Yolov4 Training in Tensorflow-lite](https://github.com/theAIGuysCode/tensorflow-yolov4-tflite)
+- [The AI Guy’s Object Detection with YoloV4 Playlist](https://www.youtube.com/watch?v=mmj3nxGT2YQ&list=PLKHYJbyeQ1a3tMm-Wm6YLRzfW1UmwdUIN&index=2)
+- [Poke API](https://pokeapi.co/)

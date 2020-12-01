@@ -10,7 +10,10 @@ De cada una de estas 15 especies se recolectaron 100 imágenes las cuales se uti
 ## Etiquetado de los datos
 Para etiquetar los datos se instaló [PyQt5](https://www.riverbankcomputing.com/software/pyqt/download) y [lxml](https://lxml.de/installation.html). Posteriormente se abrió el programa [labelImg.py](https://github.com/tzutalin/labelImg#labelimg) y se etiquetaron las imágenes de manera manual con formato YOLO.
 
+##### Dependencias
 
+
+##### Algoritmo
 
 
 ##### Contribuidores

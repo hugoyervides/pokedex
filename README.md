@@ -22,3 +22,5 @@ Para etiquetar los datos se instaló [PyQt5](https://www.riverbankcomputing.com/
 * Astrid
 * [olefran](https://github.com/olefran)
 * [Felipe Villaseñor](https://github.com/Felipev201)
+
+##### Referencias

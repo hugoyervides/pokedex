@@ -24,7 +24,10 @@ Para etiquetar los datos se instaló [PyQt5](https://www.riverbankcomputing.com/
 * [olefran](https://github.com/olefran)
 * [Felipe Villaseñor](https://github.com/Felipev201)
 
-##### Referencias
+Para aprovechar al máximo este repositorio y poder editarlo al momento de descargarlo se recomienda...
+
+En caso de estar interesado en este tema, y o al entrenamiento de modelos de aplicaciones moviles, le recomendamos los siguientes recursos:
+
 - [Google Images Download](https://github.com/Joeclinton1/google-images-download)
 - [Bing Image Scraper](https://gist.github.com/stephenhouser/c5e2b921c3770ed47eb3b75efbc94799)
 - [Pokemon Dataset](https://www.kaggle.com/thedagger/pokemon-generation-one)

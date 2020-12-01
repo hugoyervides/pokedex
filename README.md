@@ -24,7 +24,9 @@ La veriedad resulta nesesaria para combatir el ruido natural de una toma de vide
 
 
 ##### Vistas
-
+![](view1.png)
+![](view2.png)
+![](view3.png)
 
 ##### Contribuidores
 * [GustavoDLRA](https://github.com/GustavoDLRA)

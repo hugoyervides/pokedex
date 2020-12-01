@@ -11,10 +11,19 @@ De cada una de estas 15 especies se recolectaron 100 imágenes las cuales se uti
 Para etiquetar los datos se instaló [PyQt5](https://www.riverbankcomputing.com/software/pyqt/download) y [lxml](https://lxml.de/installation.html). Posteriormente se utilizó la herramienta [labelImg.py](https://github.com/tzutalin/labelImg#labelimg) y se etiquetaron las imágenes de manera manual con formato YOLO.
 
 ##### Dependencias
-* PyQt5
-* lxml
+* Tensorflow-lite
+* Android Studio-Suite / Android Studio cli Tools
 
-##### Algoritmo
+##### Modelo 
+El modelo utilizado, fue entrenado para clasificar las 15 clases anteriores, utilizando un conjunto de imagenes tomadas de varias fuentes:
+* La animación
+* PokemonGo
+* Fotos de peluches
+
+La veriedad resulta nesesaria para combatir el ruido natural de una toma de video. (Fondo dinámico)
+
+
+##### Vistas
 
 
 ##### Contribuidores
@@ -24,7 +33,21 @@ Para etiquetar los datos se instaló [PyQt5](https://www.riverbankcomputing.com/
 * [olefran](https://github.com/olefran)
 * [Felipe Villaseñor](https://github.com/Felipev201)
 
-Para aprovechar al máximo este repositorio y poder editarlo al momento de descargarlo se recomienda...
+##### Building/Compiling (Debug APK)
+
+0. Asegura de tener las dependencias mencionadas
+
+1. Descarga el repositorio y abre Android Studio
+
+2. Dentro de Android Studio:
+Clic en la opción *Build -> MakeAPKs*
+
+2.1 Dentro de Android Studio cli Tools (Opcional):
+Ve a la carpeta android del repositorio, y ejecuta el siguiente comando:
+```
+gradlew assembleDebug
+```
+
 
 En caso de estar interesado en este tema, y o al entrenamiento de modelos de aplicaciones moviles, le recomendamos los siguientes recursos:
 
